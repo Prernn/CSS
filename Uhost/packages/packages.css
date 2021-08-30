@@ -1,26 +1,52 @@
 main {
   margin-left: none;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
 }
 .package {
-  background: #ff821bdd;
   border: 2px solid #000;
   border-left: none;
-  margin: 20px 0px;
-  font-weight: bold;
-  padding: 9px;
+  margin: 30px 0px;
+  font-weight: 800;
+  padding: 20px;
   width: 80%;
 }
 
 .package:hover,
 .package:active {
-  border-color: #000;
-  background: #3e434b;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  color: aliceblue;
   transition: 0.3s;
 }
 
 .package__link {
   text-decoration: none;
   color: inherit;
+  padding: 0 30px;
+}
+.package__subtitle {
+  color: #696a6b;
+}
+.packages__info {
+  padding: 10px;
+  border: 1px solid #3e434b;
+  font-family: poppins, serif;
+  font-weight: 900;
+  font-size: 20px;
+  background: #fff;
+}
+.clearfix {
+  clear: right;
+}
+#plus {
+  background: rgba(223, 120, 3, 0.644);
+}
+#free {
+  background: rgba(223, 120, 3, 0.452);
+  float: right;
+  text-align: right;
+  border: 2px solid #000;
+  border-right: none;
+}
+#premium {
+  background: rgba(223, 120, 3, 0.76);
 }
