@@ -8,8 +8,10 @@
   color: rgb(0, 0, 0);
   letter-spacing: 0px;
 }
-.div-article {
-  margin-left: 50px;
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 .plan {
   background-color: #292828;
