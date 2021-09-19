@@ -26,6 +26,13 @@ body {
   font-size: 22px;
   color: #fff;
   text-decoration: none;
+  /* display: inline-block; */
+  /* width: 20px; */
+}
+.main-header__brand img {
+  height: 45px;
+  width: 70px;
+  vertical-align: middle;
 }
 .main-nav {
   display: inline-block;
